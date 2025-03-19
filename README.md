@@ -12,17 +12,16 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-red?style=for-the-badge)](https://dainam.edu.vn)
 </div>
 
-<h2 align="center">Phát triển mô hình CNN để nhận diện chữ viết tay trên dataset Mnist</h2>
+<h2 align="center">Sử dụng mô hình CNN +LSTM để dự đoán rủi ro té ngã ở người cao tuổi</h2>
 
 <p align="left">
-Phát triển mô hình CNN để nhận diện chữ viết tay trên MNIST là ứng dụng AI trong xử lý ảnh, giúp phân loại chữ số viết tay một cách chính xác. CNN tự động trích xuất đặc trưng từ ảnh, nâng cao hiệu suất nhận diện so với các phương pháp truyền thống. Công nghệ này hỗ trợ số hóa tài liệu, nhận diện chữ viết và ứng dụng trong nhiều lĩnh vực như giáo dục, ngân hàng, và tự động hóa.
+Sử dụng mô hình CNN + LSTM để dự đoán rủi ro té ngã ở người cao tuổi" nhằm ứng dụng trí tuệ nhân tạo để dự đoán nguy cơ té ngã, một vấn đề nghiêm trọng đối với người cao tuổi. Kết hợp giữa mạng CNN để trích xuất đặc trưng hình ảnh và LSTM để phân tích chuỗi thời gian, mô hình này giúp nhận diện sớm các dấu hiệu nguy hiểm, từ đó nâng cao hiệu quả trong việc giám sát và phòng ngừa té ngã, bảo vệ sức khỏe người cao tuổi.
 </p>
 
 ---
 
 ## 🌟 Giới thiệu
-Huấn luyện mô hình CNN để nhận biết các số từ 0-9
----
+Đề tài này tập trung vào việc sử dụng dữ liệu gia tốc để dự đoán rủi ro té ngã, một vấn đề quan trọng đối với người cao tuổi nói riêng và cộng đồng nói chung. Việc phân tích dữ liệu gia tốc giúp nhận diện các hành vi và chuyển động nguy hiểm, từ đó đưa ra cảnh báo sớm, giảm thiểu nguy cơ té ngã và bảo vệ sức khỏe cho tất cả mọi người---
 ## 🏗️ HỆ THỐNG
 <p align="center">
   <img src="cnn" alt="System Architecture" width="800"/>
