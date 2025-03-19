@@ -35,26 +35,19 @@ Sử dụng mô hình CNN + LSTM để dự đoán rủi ro té ngã ở ngườ
 <div align="center">
 
 <p align="center">
-  <img src="mnist.webp" alt="System Architecture" width="800"/>
+  <img src="img/cnn+lstm.png" alt="System Architecture" width="800"/>
 </p>
 </div>
 
 ##  Yêu cầu hệ thống
-
-Yêu cầu phần cứng
-Bộ xử lý (CPU/GPU):
-CPU: Intel Core i5 hoặc cao hơn
-GPU: NVIDIA GTX 1050 trở lên (khuyến nghị dùng GPU để tăng tốc huấn luyện)
-RAM: Tối thiểu 8GB (khuyến nghị 16GB để xử lý dữ liệu nhanh hơn)
-Bộ nhớ lưu trữ: Ít nhất 5GB trống để lưu trữ tập dữ liệu MNIST và kết quả huấn luyện
-Môi trường phát triển: Máy tính cài đặt Python, Jupyter Notebook/Google Colab hoặc VS Code
+Máy tính có GPU mạnh mẽ (NVIDIA với CUDA hoặc tương đương): Để huấn luyện mô hình học sâu CNN và LSTM hiệu quả.
+Dung lượng bộ nhớ RAM lớn: Tối thiểu 16GB (hoặc cao hơn nếu xử lý dữ liệu lớn hoặc mô hình phức tạp).
+Ổ cứng SSD: Để lưu trữ dữ liệu huấn luyện và mô hình.
+Cảm biến gia tốc (accelerometer): Để thu thập dữ liệu chuyển động từ người cao tuổi. Các thiết bị như smartphone hoặc thiết bị đeo có cảm biến gia tốc có thể được sử dụng.
 2. Yêu cầu phần mềm
-Hệ điều hành: Windows, Linux hoặc macOS
-Thư viện Python cần thiết:
-torch, torchvision, numpy, matplotlib, opencv, pandas
-Môi trường ảo hóa (nếu cần): Anaconda hoặc Virtualenv để quản lý thư viện dễ dàng
-3. Yêu cầu dữ liệu
-Nguồn dữ liệu: Bộ dữ liệu MNIST
+Hệ điều hành: Linux hoặc Windows (Linux được ưa chuộng trong việc triển khai AI).
+Các thư viện AI và Deep Learning:
+TensorFlow/Keras hoặc PyTorch: Các thư viện này hỗ trợ xây dựng và huấn luyện mô hình CNN và LSTM.
 
 ## 🚀 Hướng dẫn cài đặt và chạy
 
