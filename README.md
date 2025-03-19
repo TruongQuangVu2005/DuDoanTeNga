@@ -1,4 +1,4 @@
-<h1 align="center">PHÁT TRIỂN MÔ HÌNH CNN ĐỂ NHẬN DIỆN CHỮ VIẾT TAY TRÊN BỘ DỮ LIỆU MNIST</h1>
+<h1 align="center">DỰ ĐOÁN RỦI RO TÉ NGÃ NGƯỜI CAO TUỔI DỰA TRÊN CẢM BIẾN ĐEO TAY</h1>
 
 <div align="center">
 
