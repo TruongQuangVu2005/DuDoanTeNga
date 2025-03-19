@@ -41,7 +41,6 @@ Sử dụng mô hình CNN + LSTM để dự đoán rủi ro té ngã ở ngườ
 
 ##  Yêu cầu hệ thống
 1. Yêu cầu phần cứng
-<br>
 - Máy tính có GPU mạnh mẽ (NVIDIA với CUDA hoặc tương đương): Để huấn luyện mô hình học sâu CNN và LSTM hiệu quả.
   <br>
 - Dung lượng bộ nhớ RAM lớn: Tối thiểu 16GB (hoặc cao hơn nếu xử lý dữ liệu lớn hoặc mô hình phức tạp).
@@ -61,17 +60,17 @@ TensorFlow/Keras hoặc PyTorch: Các thư viện này hỗ trợ xây dựng v�
 ## 🚀 Hướng dẫn cài đặt và chạy
 
 
- <h2>Bước 1:  Cài đặt môi trường</h2>
-    <h2>Bước 2: Tải bộ dữ liệu MNIST</h2>
+ ## Bước 1:  Chuẩn bị môi trường
+## Bước 2: Đọc và chuẩn bị file từ dataset MobiFall
    
-  ## Bước 3: Xây dựng mô hình CNN
+  ## Bước 3: Đọc và kết hợp dữ liệu từ các tệp cảm biến
    
-  ## Bước 4:Cấu hình huấn luyện 
+  ## Bước 4:Tiền xử lý dữ liệu
    
-  ## Bước 5:  Huấn luyện mô hình
+  ## Bước 5:  Xây dựng mô hình CNN + LSTM
 
-  ## Bước 6: Đánh giá mô hình trên tập test
-  ## Bước 7: Dự đoán chữ số từ ảnh mới
+  ## Bước 6: Huấn luyện mô hình
+  ## Bước 7: Dự đoán với dữ liệu tự thu thập
   ## Bước 8: Lưu và tải lại mô hình
    
    
@@ -81,8 +80,8 @@ Dự án được phát triển bởi 3 thành viên:
 
 | Họ và Tên                | Vai trò                  |
 |--------------------------|--------------------------|
-| Nguyễn Mạnh Quyết             | Phát triển toàn bộ mã nguồn,Powerpoint, thuyết trình, đề xuất cải tiến.|
-| Kiều Duy Vinh            | Overleaf,hỗ trợ bài tập lớn.|
-| Vũ Việt Quang    | Hỗ trợ bài tập lớn.  |
+| Vương Đức Tuấn             | Phát triển toàn bộ mã nguồn,thuyết trình|
+| Vũ Quang Trường            | Overleaf,,Powerpoint, .|
+| Lỗ Văn Tuấn    | Hỗ trợ bài tập lớn.  |
 
-© 2025 NHÓM 4, CNTT 17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
+© 2025 NHÓM 2, CNTT 17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
