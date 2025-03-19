@@ -40,13 +40,22 @@ Sử dụng mô hình CNN + LSTM để dự đoán rủi ro té ngã ở ngườ
 </div>
 
 ##  Yêu cầu hệ thống
-Máy tính có GPU mạnh mẽ (NVIDIA với CUDA hoặc tương đương): Để huấn luyện mô hình học sâu CNN và LSTM hiệu quả.
-Dung lượng bộ nhớ RAM lớn: Tối thiểu 16GB (hoặc cao hơn nếu xử lý dữ liệu lớn hoặc mô hình phức tạp).
-Ổ cứng SSD: Để lưu trữ dữ liệu huấn luyện và mô hình.
+1. Yêu cầu phần cứng
+<br>
+- Máy tính có GPU mạnh mẽ (NVIDIA với CUDA hoặc tương đương): Để huấn luyện mô hình học sâu CNN và LSTM hiệu quả.
+  <br>
+- Dung lượng bộ nhớ RAM lớn: Tối thiểu 16GB (hoặc cao hơn nếu xử lý dữ liệu lớn hoặc mô hình phức tạp).
+  <br>
+- Ổ cứng SSD: Để lưu trữ dữ liệu huấn luyện và mô hình.
+  <br>
 Cảm biến gia tốc (accelerometer): Để thu thập dữ liệu chuyển động từ người cao tuổi. Các thiết bị như smartphone hoặc thiết bị đeo có cảm biến gia tốc có thể được sử dụng.
+<br>
 2. Yêu cầu phần mềm
+<br>
 Hệ điều hành: Linux hoặc Windows (Linux được ưa chuộng trong việc triển khai AI).
+<br>
 Các thư viện AI và Deep Learning:
+<br>
 TensorFlow/Keras hoặc PyTorch: Các thư viện này hỗ trợ xây dựng và huấn luyện mô hình CNN và LSTM.
 
 ## 🚀 Hướng dẫn cài đặt và chạy
