@@ -24,7 +24,7 @@ Sử dụng mô hình CNN + LSTM để dự đoán rủi ro té ngã ở ngườ
 Đề tài này tập trung vào việc sử dụng dữ liệu gia tốc để dự đoán rủi ro té ngã, một vấn đề quan trọng đối với người cao tuổi nói riêng và cộng đồng nói chung. Việc phân tích dữ liệu gia tốc giúp nhận diện các hành vi và chuyển động nguy hiểm, từ đó đưa ra cảnh báo sớm, giảm thiểu nguy cơ té ngã và bảo vệ sức khỏe cho tất cả mọi người---
 ## 🏗️ HỆ THỐNG
 <p align="center">
-  <img src="cnn" alt="System Architecture" width="800"/>
+  <img src="tuan" alt="System Architecture" width="800"/>
 </p>
 
 ---
